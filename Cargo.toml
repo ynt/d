@@ -1,0 +1,10 @@
+[package]
+name = "d"
+version = "0.1.0"
+authors = ["gladmo <mo@gladmo.com>"]
+description = "A cron expression parser and schedule explorer."
+license = "MIT"
+
+[dependencies]
+chrono = "0.4.0"
+regex = "0.2.3"
