@@ -2,8 +2,9 @@
 D is a time format command.
 
 ```Rust
-$ d 
-// out put 
+$ d
+// out put
+// 20171227
 // 1514386603
 // 2017-12-27 22:56:43
 
