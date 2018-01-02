@@ -34,5 +34,5 @@ fn get_res(args: Args) -> String {
     }
 
     let now = Local::now();
-    now.timestamp().to_string() + "\n" + &now.format("%Y-%m-%d %H:%M:%S").to_string()
+    now.format("%Y%m%d").to_string() + "\n" + &now.timestamp().to_string() + "\n" + &now.format("%Y-%m-%d %H:%M:%S").to_string()
 }
